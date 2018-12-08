@@ -1,0 +1,35 @@
+{
+  "development": {
+    "username": "root",
+    "password": "root",
+    "database": "accthldr",
+    "host": "localhost",
+    "PORT": 8888,
+    "dialect": "mysql",
+    "dialectOptions": {
+      "socketPath": "/Applications/MAMP/tmp/mysql/mysql.sock"
+    }
+  },
+  "test": {
+    "username": "root",
+    "password": "root",
+    "database": "accthldr",
+    "host": "localhost",
+    "PORT": 8888,
+    "dialect": "mysql",
+    "dialectOptions": {
+      "socketPath": "/Applications/MAMP/tmp/mysql/mysql.sock"
+    }
+  },
+  "production": {
+    "username": "root",
+    "password": "root",
+    "database": "accthldr",
+    "host": "localhost",
+    "PORT": 8888,
+    "dialect": "mysql",
+    "dialectOptions": {
+      "socketPath": "/Applications/MAMP/tmp/mysql/mysql.sock"
+    }
+  }
+}
