@@ -1,0 +1,189 @@
+.App{
+    width: 100vw; 
+    height: 1000px; 
+    margin: 0 auto; 
+}
+header{
+    width: 100%; 
+    height: 125px; 
+    margin: 0; 
+}
+.logo{
+    width: 20%; 
+    height: 50%; 
+    text-align: center;
+    vertical-align: middle;
+}
+.logo img{
+    width: 50%;
+    height: 20%; 
+    padding: .5em; 
+}
+.header-group{
+    margin: 0; 
+    display: flex; 
+    flex-direction: row; 
+    flex-wrap: wrap;
+}
+.header-top-menu{
+    width: 100%;
+    height: 40px;  
+    margin: 0; 
+    display: flex; 
+    flex-direction: row; 
+    flex-wrap: wrap; 
+    justify-content: center;
+    background-color: #fff; 
+}
+a.menu-item{
+    width: 10%; 
+    height: 25px; 
+    text-decoration: unset; 
+    background-color: #140B89;
+    vertical-align: middle;
+    color: #fff; 
+    padding-left: 1em;
+    padding-right: 1em;
+    padding-top: .5em;
+    padding-bottom: .5em;   
+    justify-content: space-evenly;
+    margin: .5em; 
+    text-align: center;
+}
+.header-link-text{
+    margin: 0; 
+}
+.second-header-menu{
+    margin-top: 3%; 
+    width: 60%; 
+    height: auto; 
+    display: flex; 
+    flex-direction: row; 
+    flex-wrap: wrap; 
+    justify-content: space-evenly;
+    color: #140B89;
+}
+a.menu-item2{
+    text-decoration: unset;
+}
+.second-header-menu.a:visited{
+    color: #140B89;
+}
+.header-nav2{
+    padding: .25em;
+    background-color: #F2F3F4;
+    color: #140B89;
+    font-weight: 900; 
+    border: 3px solid #140B89;
+}
+.signin-link{
+    width: 100%; 
+    height: 75px;
+    margin-left: 5em;
+    background-color: #F2F3F4;
+    vertical-align: middle;
+    color: #140B89; 
+    font-weight: bold; 
+    text-align: center;
+    border: 3px solid #140B89;
+}
+.sign-in-text{
+    margin: 0 auto;
+    margin-top: 1.75em;
+    text-align: center; 
+    width: 100%; 
+    height: 100%; 
+    padding-right: 1em;
+}
+.header-group a{
+    text-decoration: unset;
+}
+.main-body{
+    width: 100vw; 
+    height: 800px; 
+    margin: 0;
+    display: flex; 
+    flex-direction: row; 
+    flex-wrap: nowrap; 
+}
+.body-segment-side{
+    width: 20vw; 
+    height: auto; 
+    background-color: green;
+}
+.body-segment-bulk{
+    width: 60%; 
+    height: auto; 
+    background-color: purple;
+}
+footer{
+    background-color: lightcoral;
+    height: 200px;
+}
+.hero-wide-promo{
+    width: 100%; 
+    height: 500px; 
+    background: radial-gradient(ellipse at top, #F8F9F9, transparent),
+    radial-gradient(ellipse at bottom, #EAEDED, transparent);
+}
+.hero-image{
+    vertical-align: middle;
+    margin-top: 2em; 
+    text-align: center;
+
+}
+.hero-text{
+    vertical-align: middle;
+    text-align: center;
+}
+.poster-group{
+    margin: 0; 
+    margin-top: 2em;
+    margin-left: 2em;
+    width: 96%; 
+    display: flex; 
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.poster1, .poster2, .poster3{
+    width: 33%; 
+}
+.poster1 a, .poster2 a, .poster3 a{
+    text-decoration: unset;
+}
+.poster-link-text{
+    text-align: center;
+    width: 70%; 
+    height: 300px; 
+    background-color: rgb(163, 156, 156);
+    padding: 3em;
+    vertical-align: middle;
+}
+footer{
+    width: 100%; 
+    height: auto; 
+    margin: 0 auto; 
+    display: flex; 
+    flex-direction: row;
+    flex-wrap: wrap; 
+    background-color: #F2F3F4;
+}
+.foot-group{
+    width: 20%; 
+    height: auto; 
+    margin: 0; 
+    margin-top: 2em;
+    margin-left: 4em; 
+}
+.foot-group a{
+    text-decoration: unset;
+}
+.footer-text-sub-heading{
+    color: #140B89;
+    font-size: 1.25em;
+    font-weight: 900; 
+}
+.footer-text{
+    color: #343637; 
+}
